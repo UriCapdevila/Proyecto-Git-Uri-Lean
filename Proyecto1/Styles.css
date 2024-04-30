@@ -162,7 +162,7 @@ a:hover{
 .my-form__button {
     background: var(--primary);
     border: 1px solid var(--primary-light);
-    color: white;
+    color: rgb(10, 10, 10);
     white-space: nowrap;
     display: grid;
     place-items: center;
