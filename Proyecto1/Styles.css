@@ -12,19 +12,9 @@
     }
 
 body { 
-background-color: rgb(230, 243, 51);
+background-color: rgb(230, 235, 165);
 }
 /*Botones del nav*/
-
-#Navegador{ 
-    background-color: rgb(3, 3, 3);
-
-    align-items: space-around;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: lighter;
-}
 
 .Titulo{
     color: black;
@@ -35,20 +25,39 @@ background-color: rgb(230, 243, 51);
 
 }
 
+
+#Navegador{ 
+    background-color: rgb(137, 255, 137);
+    align-items: space-around;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+
 ul li{ 
-    background-color: rgb(255, 255, 255);
-    display: inline-block;
-    padding: 5px 20px;
+    background-color: rgb(243, 243, 243);
+    display: inline;
+    padding: 8px 20px;
+    padding-inline: 40px;
     border-radius: 5px;
+    margin-right: 50px;
+    margin-left: 120px;
+
+ 
 }
 
 a{ 
     color: rgb(0, 0, 0);
     text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+
 }
 
 a:hover{ 
-    color: darkcyan;
+    color: rgb(30, 0, 139);
+    
 }
 
 /*Diseño del Registro*/
@@ -279,6 +288,7 @@ a:hover{
     padding: 1rem 0px;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-family: "DM Sans", sans-serif;
 }
 
 .footer-bottom > small {
