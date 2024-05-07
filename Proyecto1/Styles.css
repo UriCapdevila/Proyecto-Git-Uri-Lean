@@ -6,7 +6,7 @@
 }
 :root {
     --background: #2C2C2C;
-    --linkedin: #0A66C2;
+    --linkedin: #10c20a;
     --youtube: #e52d27;
     --twitter: #1D9BF0; 
     }
@@ -360,10 +360,10 @@ a:hover{
 }
 
 .social-media-button {
-    width: 3rem;
-    height: 3rem;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
-    outline: 2px solid white;
+    outline: 3px solid rgb(0, 0, 0);
     cursor: pointer;
     transition: all 0.3s;
     display: grid;
@@ -371,8 +371,8 @@ a:hover{
 }
 
 .social-media-button:hover {
-    outline-offset: 3px;
-    transition: all 0.3s;
+    outline-offset: 10px;
+    transition: all 0.4s;
 }
 
 .social-media-button img {
