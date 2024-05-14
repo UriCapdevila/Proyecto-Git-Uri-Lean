@@ -23,6 +23,7 @@ background-color: rgb(247, 236, 185);
     background-color: #f2acf8;
     align-items: center;
     padding: 10px;
+    
 }
 
 .Logo{
@@ -42,6 +43,11 @@ background-color: rgb(247, 236, 185);
     font-weight: 500;
     text-decoration: none;
     color: black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
     
 
 }
@@ -84,7 +90,7 @@ background-color: rgb(247, 236, 185);
     padding: 0.5rem;
     border: 1px solid var(--border);
     transition: all .3s ease;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 4px 0px;
+    box-shadow: rgb(68, 68, 68) 0px 1px 4px 0px;
 }
 
 .socials-row>a svg {
@@ -387,4 +393,25 @@ background-color: rgb(247, 236, 185);
 
 .social-media-button:hover:nth-child(4) {
     background: var(--linkedin);
+}
+
+/* Pagina 2 */
+
+.Flexbox{ 
+display: flex;
+border: 100px black;
+align-items: center;
+
+}
+
+.cajita{ 
+
+border: 1px black;
+background-color: white;
+color: black;
+margin: 5px;
+width: 220px;
+height: 220px;
+line-height: 220px;
+text-align: center;
 }
