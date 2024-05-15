@@ -14,6 +14,31 @@
 body { 
 background-color: rgb(247, 236, 185);
 }
+
+/*Main*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Nav*/
 
 #Navegador { 
@@ -76,7 +101,7 @@ background-color: rgb(247, 236, 185);
 
 .socials-row>a {
     padding: 0.5rem;
-    border-radius: 0.5rem;
+    border-radius: 2px;
     width: 100%;
     min-height: 2.75rem;
     display: flex;
@@ -90,7 +115,7 @@ background-color: rgb(247, 236, 185);
     padding: 0.5rem;
     border: 1px solid var(--border);
     transition: all .3s ease;
-    box-shadow: rgb(68, 68, 68) 0px 1px 4px 0px;
+    box-shadow: rgb(0, 0, 0) 1px 1px 4px 1px;
 }
 
 .socials-row>a svg {
@@ -155,9 +180,10 @@ background-color: rgb(247, 236, 185);
 
 .logo {
     height: 4rem;
-    position: absolute;
+    position: flex;
     top: 0.5rem;
     left: 0.5rem;
+    bottom: 10px;
 }
 
 .my-form {
@@ -184,7 +210,7 @@ background-color: rgb(247, 236, 185);
     font-size: 1.125rem;
     cursor: pointer;
     width: 100%;
-    border-radius: 0.5rem;
+    border-radius: 2px;
     box-shadow: 0 5px 10px rgb(17, 17, 17);
     transition: all .3s ease;
 }
@@ -399,14 +425,14 @@ background-color: rgb(247, 236, 185);
 
 .Flexbox{ 
 display: flex;
-border: 100px black;
+border:10px black;
 align-items: center;
 
 }
 
 .cajita{ 
 
-border: 1px black;
+border:10px black;
 background-color: white;
 color: black;
 margin: 5px;
